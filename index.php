@@ -43,6 +43,7 @@ class myclass{
 
 //public are external to use properties outside of the class
 // can use out side the class
+//can be accessed outside the obj
 public $myPublic;
 
 // private is hidden and only useable for myPrivate
@@ -76,8 +77,13 @@ echo 'Hello' .$name;
 
   print_r($obj);
 
-
-
+//for loop
+//take each element from myassoc and send it to link 
+foreach($myAssoc as $link ){
+  foreach($link as $key => $value){
+  echo $key. ' ' . $value . "\n";
+  }
+}
 
 
 
@@ -89,5 +95,5 @@ echo 'Hello' .$name;
 
 // print = echo
 
- 
+ // write a program that take array and make it into a table.
  ?>
