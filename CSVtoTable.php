@@ -43,17 +43,12 @@ class htmlTable{
 				$this->htmlTable .= '<table>';
 				$this->htmlTable .= '<thead>';
 				$this->htmlTable .= '<tr>';
-				
-	//Table Head
-		
+				//table headings
 				$this->htmlTable .= '<th>'. 'Views'.'</th>';
 				$this->htmlTable .= '<th>'. 'Title'.'</th>';
-//				foreach ($this->data[0] as $key => $value) {
-//						$this->htmlTable .= '<th>' . $key . '</th>';
-//				}
+				
 				$this->htmlTable .= '</tr>';
 				$this->htmlTable .= '</thead>';
-				//Table Body
 				$this->htmlTable .= '<tbody>';
 				foreach ($this->data as $row) {
 						$this->htmlTable .= '<tr>';
